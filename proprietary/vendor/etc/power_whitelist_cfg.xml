@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<WHITELIST>
+    <PerfService>
+        <Package name="com.imangi.templerun2">
+            <Activity name="Common">
+                <CMD_SET_TA_BOOST_VALUE Param1="5"/>
+            </Activity>
+        </Package>
+        <!--
+        <Package name="com.andromeda.androbench2">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.futuremark.pcmark.android.benchmark">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_GPU_FREQ_MIN Param1="0"/>
+            </Activity>
+        </Package>
+        <Package name="com.antutu.ABenchMark">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.antutu.benchmark.full">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.primatelabs.geekbench">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BIG_TASK_ROTATION Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.aurorasoftworks.quadrant.ui.professional">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.aurorasoftworks.quadrant.ui.advanced">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        -->
+        <Package name="com.tencent.tmgp.sgame">
+            <Activity name="Common">
+                <CMD_SET_PACK_BOOST_TIMEOUT Param1="25"/>
+                <CMD_SET_FBT_FLOOR_BOUND Param1="1"/>
+                <CMD_SET_FBT_KMIN Param1="10"/>
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+                <CMD_SET_WIFI_LOW_LATENCY Param1="1"/>
+                <CMD_SET_THERMAL_POLICY Param1="10"/>
+                <CMD_SET_GED_MARGIN_MODE Param1="110"/>
+                <CMD_SET_FPSGO_MARGIN_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.mobileqq">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+                <CMD_SET_FBT_BHR_OPP Param1="15"/>
+            </Activity>
+        </Package>
+        <Package name="com.netease.ko">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.netease.hyxd">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+                <CMD_SET_GED_MARGIN_MODE Param1="110"/>
+                <CMD_SET_FPSGO_MARGIN_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.netease.mrzh">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+                <CMD_SET_GED_MARGIN_MODE Param1="110"/>
+                <CMD_SET_FPSGO_MARGIN_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.epicgames.fortnite">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.maimiao.live.tv">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.happyelements.AndroidAnimal.qq">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.cf">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+                <CMD_SET_GED_MARGIN_MODE Param1="110"/>
+                <CMD_SET_FPSGO_MARGIN_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.pubgmhd">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+                <CMD_SET_GED_MARGIN_MODE Param1="110"/>
+                <CMD_SET_FPSGO_MARGIN_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.speedmobile">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.pubgm">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+                <CMD_SET_GED_MARGIN_MODE Param1="110"/>
+                <CMD_SET_FPSGO_MARGIN_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.ludashi.benchmark">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.ludashi.aibench">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="org.benchmark.demo">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="org.aibench.neuralscope">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="net.kishonti.gfxbench.gl.v40000.corporate">
+            <Activity name="Common">
+                 <CMD_SET_FBT_BHR_OPP Param1="15"/>
+                 <CMD_SET_OPP_DDR Param1="0"/>
+                 <CMD_SET_THERMAL_POLICY Param1="8"/>
+                 <CMD_SET_TA_CAP_MIN  Param1="60"/>
+             </Activity>
+        </Package>
+        <Package name="com.estrongs.android.pop.pro">
+            <Activity name="Common">
+                 <CMD_SET_BLKDEV_READAHEAD Param1="512"/>
+             </Activity>
+        </Package>
+        <Package name="com.ss.android.ugc.aweme">
+            <Activity name="Common">
+                <CMD_SET_FPSGO_GPU_BLOCK_BOOST Param1="30"/>
+                <CMD_SET_THERMAL_POLICY Param1="12"/>
+                <CMD_SET_GPU_FREQ_MAX Param1="12"/>
+            </Activity>
+        </Package>
+        <Package name="com.ss.android.ugc.live">
+            <Activity name="Common">
+                <CMD_SET_FPSGO_GPU_BLOCK_BOOST Param1="30"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.ig">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.kgvn">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="10"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.kgth">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="10"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.kgid">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="10"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.kgsam">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="10"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.kgvntest">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="10"/>
+            </Activity>
+        </Package>
+        <Package name="com.ngame.allstar.eu">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="10"/>
+            </Activity>
+        </Package>
+        <Package name="com.netmarble.penta">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="10"/>
+            </Activity>
+        </Package>
+        <!--#ifdef VENDOR_EDIT -->
+        <!--Tao.zhang@PSW.NW.1558426 2019/03/07 -->
+        <!--Add for to add APP which need boot to whitelist -->
+        <Package name="com.netease.hyxd.nearme.gamecenter">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.cf">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.pubgmhd">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.happyelements.AndroidAnimal">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.happyelements.com.tencent.mobileqq">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.mm">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+                <CMD_SET_FBT_BHR_OPP Param1="15"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.mm">
+            <Activity name="com.tencent.mm.plugin.mmsight.ui.SightCaptureUI">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.mm">
+            <Activity name="com.tencent.mm.plugin.story.ui.StoryCaptureUI">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.mm">
+            <Activity name="com.tencent.mm.plugin.voip.ui.VideoActivity">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.xunmeng.pinduoduo">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.sina.weibo">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.eg.android.AlipayGphone">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.zhihu.android">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.baidu.searchbox">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.mtt">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.UCMobile">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.ss.android.article.news">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+                <CMD_SET_FBT_RESCUE_F Param1="100"/>
+                <CMD_SET_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <CMD_SET_FBT_MIN_RESCUE_PERCENT Param1="50"/>
+                <CMD_SET_FBT_RESCUE_PERCENT Param1="100"/>
+                <CMD_SET_FBT_ULTRA_RESCUE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.qzone">
+            <Activity name="Common">
+                <CMD_SET_FBT_RESCUE_F Param1="100"/>
+                <CMD_SET_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <CMD_SET_FBT_MIN_RESCUE_PERCENT Param1="50"/>
+                <CMD_SET_FBT_RESCUE_PERCENT Param1="100"/>
+                <CMD_SET_FBT_ULTRA_RESCUE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.UCMobile">
+            <Activity name="Common">
+                <CMD_SET_FBT_RESCUE_F Param1="100"/>
+                <CMD_SET_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <CMD_SET_FBT_MIN_RESCUE_PERCENT Param1="100"/>
+                <CMD_SET_FBT_RESCUE_PERCENT Param1="100"/>
+                <CMD_SET_FBT_ULTRA_RESCUE Param1="1"/>
+                <CMD_SET_FBT_BHR_OPP Param1="15"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+                <CMD_SET_GPU_FREQ_MIN Param1="22"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.woool3d">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+                <CMD_SET_FBT_RESCUE_F Param1="100"/>
+                <CMD_SET_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <CMD_SET_FBT_MIN_RESCUE_PERCENT Param1="50"/>
+                <CMD_SET_FBT_RESCUE_PERCENT Param1="100"/>
+                <CMD_SET_FBT_ULTRA_RESCUE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="2"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.mobileqq">
+            <Activity name="cooperation.qzone.QzoneFeedsPluginProxyActivity">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+                <CMD_SET_FBT_RESCUE_F Param1="100"/>
+                <CMD_SET_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <CMD_SET_FBT_MIN_RESCUE_PERCENT Param1="50"/>
+                <CMD_SET_FBT_RESCUE_PERCENT Param1="100"/>
+                <CMD_SET_FBT_ULTRA_RESCUE Param1="1"/>
+                <CMD_SET_FBT_BHR_OPP Param1="15"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.mobileqq">
+            <Activity name="dov.com.qq.im.QIMCameraCaptureActivity">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.mobileqq">
+            <Activity name="com.tencent.mobileqq.richmedia.capture.activity.CameraCaptureActivity">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.mobileqq">
+            <Activity name="com.tencent.av.ui.AVActivity">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.jingdong.app.mall">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.taobao.taobao">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tmall.wireless">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.sankuai.meituan">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.sankuai.meituan.takeoutnew">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.dianping.v1">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.Qunar">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="ctrip.android.view">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.ss.android.ugc.aweme">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+                <CMD_SET_THERMAL_POLICY Param1="12"/>
+                <CMD_SET_GPU_FREQ_MAX Param1="12"/>
+            </Activity>
+        </Package>
+        <Package name="com.smile.gifmaker">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+                <CMD_SET_THERMAL_POLICY Param1="12"/>
+            </Activity>
+        </Package>
+        <Package name="com.qiyi.video">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.qqlive">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.youku.phone">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="tv.danmaku.bili">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.coloros.browser">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.reading">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <!--#endif VENDOR_EDIT -->
+        <!--#ifdef VENDOR_EDIT -->
+        <!--Tao.zhang@PSW.NW.1558426 2019/03/22 -->
+        <!--Add for to add exp APP which need boot to whitelist -->
+        <Package name="com.tencent.ig">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.king.candycrushsaga">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.colorup.game">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.ludo.king">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.mobile.legends">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.nianticlabs.pokemongo">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.moonactive.coinmaster">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.fctw">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.supercell.clashroyale">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.dts.freefireth">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.kiloo.subwaysurf">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.supercell.brawlstars">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.kgth">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.h8games.helixjump">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.kgtw">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.machipopo.media17">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+       <Package name="com.facebook.katana">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.instagram.android">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.zhiliaoapp.musically">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="jp.naver.line.android">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+       <Package name="gogolook.callgogolook2">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.whatsapp">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.facebook.orca">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.ss.android.ugc.trill">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.vkontakte.android">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.android.chrome">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.UCMobile.intl">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.opera.browser">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.shopee.tw">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.lazada.android">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.thecarousell.Carousell">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="in.amazon.mShop.android.shopping">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="net.one97.paytm">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.flipkart.android">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.shopee.id">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.google.android.youtube">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="video.like">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.mxtech.videoplayer.ad">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.nemo.vidmate">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="org.videolan.vlc">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.netflix.mediaclient">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.chocolabs.app.chocotv">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.bilibili.app.in">
+            <Activity name="Common">
+                <CMD_SET_NETD_BOOST_UID Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.mt.mtxx.mtxx">
+            <Activity name="Common">
+                <CMD_SET_GED_TIMER_BASE_DVFS_MARGIN Param1="10"/>
+                <CMD_SET_THERMAL_POLICY Param1="11"/>
+            </Activity>
+        </Package>
+        <Package name="com.lemon.faceu">
+            <Activity name="Common">
+                <CMD_SET_GED_TIMER_BASE_DVFS_MARGIN Param1="10"/>
+                <CMD_SET_THERMAL_POLICY Param1="11"/>
+            </Activity>
+        </Package>
+        <Package name="com.campmobile.snowcamera">
+            <Activity name="Common">
+                <CMD_SET_GED_TIMER_BASE_DVFS_MARGIN Param1="10"/>
+                <CMD_SET_THERMAL_POLICY Param1="11"/>
+            </Activity>
+        </Package>
+        <Package name="cn.easyar.sightplus">
+            <Activity name="Common">
+                <CMD_SET_GED_TIMER_BASE_DVFS_MARGIN Param1="10"/>
+                <CMD_SET_PERFMGR_CFP_ENABLE Param1="0"/>
+                <CMD_SET_THERMAL_POLICY Param1="11"/>
+            </Activity>
+        </Package>
+        <Package name="com.huajiao.camera">
+            <Activity name="Common">
+                <CMD_SET_GED_TIMER_BASE_DVFS_MARGIN Param1="10"/>
+                <CMD_SET_THERMAL_POLICY Param1="11"/>
+            </Activity>
+        </Package>
+        <Package name="com.adnonstop.mancamera2017">
+            <Activity name="Common">
+                <CMD_SET_GED_TIMER_BASE_DVFS_MARGIN Param1="10"/>
+                <CMD_SET_THERMAL_POLICY Param1="11"/>
+            </Activity>
+        </Package>
+        <Package name="com.benqu.wuta">
+            <Activity name="Common">
+                <CMD_SET_GED_TIMER_BASE_DVFS_MARGIN Param1="10"/>
+                <CMD_SET_THERMAL_POLICY Param1="11"/>
+                <CMD_SET_FBT_BHR_OPP Param1="15"/>
+            </Activity>
+        </Package>
+        <Package name="com.meitu.wheecam">
+            <Activity name="Common">
+                <CMD_SET_GED_TIMER_BASE_DVFS_MARGIN Param1="10"/>
+                <CMD_SET_THERMAL_POLICY Param1="11"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.funcam">
+            <Activity name="Common">
+                <CMD_SET_GED_TIMER_BASE_DVFS_MARGIN Param1="10"/>
+                <CMD_SET_THERMAL_POLICY Param1="11"/>
+            </Activity>
+        </Package>
+        <Package name="com.meitu.meiyancamera">
+            <Activity name="Common">
+                <CMD_SET_GED_TIMER_BASE_DVFS_MARGIN Param1="10"/>
+                <CMD_SET_THERMAL_POLICY Param1="11"/>
+            </Activity>
+        </Package>
+        <Package name="vStudio.Android.Camera360">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="11"/>
+                <CMD_SET_FBT_BHR_OPP Param1="15"/>
+            </Activity>
+        </Package>
+        <!--#endif VENDOR_EDIT -->
+    </PerfService>
+</WHITELIST>
